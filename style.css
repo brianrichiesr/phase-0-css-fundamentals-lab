@@ -1,5 +1,31 @@
+/* Ensures that the body takes up the entire screen */
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+}
+/* Giving all the selectors the same style. I do not like that this style works on the image. */
+header, figure, #details div  {
+  text-align: center;
+}
+/* Makes text located in 'figure' smaller than default */
+figure {
+  font-size: 14px;
+}
+/* Navbar button sprucing */
+a {
+  padding: 0 10px;
+  background: lavender;
+}
+/* Styling the text for the description of property */
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  margin: 15px auto;
+}
+/* Contact and other info at the bottom of the page */
+#details div {
+  float: left;
+  width: 25%;
+  background: lavender;
 }
